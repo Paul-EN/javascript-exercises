@@ -4,9 +4,7 @@ var leapYears = function(year) {
   }
 
   function checkCenturyLeap() {
-    if (year < 400) {
-      return false;
-    } else if (year >= 400 && year % 400 === 0) {
+    if (year >= 400 && year % 400 === 0) {
       return true;
     } else {
       return false;
