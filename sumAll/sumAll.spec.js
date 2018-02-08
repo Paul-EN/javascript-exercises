@@ -10,6 +10,9 @@ describe('sumAll', function() {
   it('works with larger number first', function() {
     expect(sumAll(123, 1)).toEqual(7626);
   });
+  it('works with equal numbers', function() {
+    expect(sumAll(5, 5)).toEqual(5);
+  });
   it('returns ERROR with negative numbers', function() {
     expect(sumAll(-10, 4)).toEqual('ERROR');
   });
