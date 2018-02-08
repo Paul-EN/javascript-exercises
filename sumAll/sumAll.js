@@ -22,7 +22,7 @@ var sumAll = function(x, y) {
 
   function sum() {
     let result = 0;
-    if (verifyParameters() === true) {
+    if (verifyParameters()) {
       for (let i = leastGreatest()[0]; i <= leastGreatest()[1]; i++) {
         result += i;
       }
