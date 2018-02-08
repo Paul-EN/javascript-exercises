@@ -9,7 +9,7 @@ var sumAll = function(x, y) {
 
   function leastGreatest() {
     let sortedArray = [];
-    if (x < y || x === y) {
+    if (x <= y) {
       sortedArray.push(x);
       sortedArray.push(y);
     } else if (x > y) {
