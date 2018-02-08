@@ -1,4 +1,4 @@
-var removeFromArray = function(array) {
+var removeFromArray = function() {
   let deleteFrom = arguments[0];
   for (let i = 0; i < deleteFrom.length; i++) {
     for (let j = 1; j < arguments.length; j++) {
